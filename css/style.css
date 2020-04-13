@@ -1,0 +1,243 @@
+body {
+  font-family: Roboto, Arial; }
+
+.block {
+  max-width: 1264px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.block-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px; }
+  .block-title_line-one {
+    letter-spacing: 2px; }
+  .block-title_line-two {
+    color: #b6b6b6; }
+
+.articles-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  padding: 0 70px;
+  width: 100%; }
+  .articles-container__article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .articles-container__article_image {
+      display: flex;
+      justify-content: center; }
+      .articles-container__article_image .articles-container__article_circle {
+        background-color: #3ec9b4;
+        border-radius: 50%;
+        width: 180px;
+        height: 180px; }
+    .articles-container__article_title {
+      text-align: center;
+      margin-top: 50px; }
+    .articles-container__article_brake-line {
+      width: 35px;
+      height: 5px;
+      background-color: #3ec9b4;
+      margin: 25px 0; }
+    .articles-container__article_text {
+      text-align: center;
+      font-size: 13px;
+      line-height: 25px; }
+
+.header {
+  background-color: #dfdfdf;
+  height: 790px; }
+  .header .header__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .header .header__title .header__title_line-one {
+      font-weight: 500;
+      letter-spacing: 8px;
+      font-size: 30px; }
+      .header .header__title .header__title_line-one .header__title_line-one_gray {
+        color: gray; }
+    .header .header__title .header__title_line-two {
+      letter-spacing: 1px;
+      font-size: 12px;
+      margin-top: 10px; }
+  .header .header__button {
+    margin: 70px 0 0;
+    background-color: #3ec9b4;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding: 15px 40px;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 0 #319384; }
+
+.block-1 {
+  padding: 100px 0;
+  background-color: #f1f1f1; }
+  .block-1__text {
+    max-width: 770px;
+    text-align: center; }
+
+.block-2 {
+  padding: 100px 0;
+  background-color: #dfdfdf; }
+
+.block-3 {
+  display: flex;
+  max-width: 1264px;
+  margin: 0 auto;
+  background-color: #f1f1f1; }
+  .block-3__title {
+    margin-bottom: 15px; }
+  .block-3__image {
+    width: 50%;
+    background-color: #555; }
+  .block-3__content {
+    padding: 120px 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .block-3__content .block-3__text {
+      max-width: 470px;
+      text-align: center;
+      font-size: 14px;
+      margin-bottom: 20px;
+      line-height: 24px; }
+
+.block-4 {
+  background-color: #333;
+  color: #fff;
+  letter-spacing: 5px;
+  padding: 70px 0; }
+  .block-4__line-one {
+    margin-bottom: 20px;
+    font-weight: 400; }
+  .block-4__line-two {
+    font-weight: 400;
+    margin-bottom: 40px; }
+  .block-4__button {
+    width: 40px;
+    height: 40px;
+    background-color: #3ec9b4;
+    border: none;
+    border-radius: 50%; }
+
+.block-5 {
+  padding: 90px 0;
+  background-color: #f1f1f1; }
+  .block-5 .articles-container__article_image {
+    background-color: #555;
+    height: 220px;
+    width: 100%; }
+
+.block-6 {
+  padding: 70px 0;
+  background-color: #333; }
+  .block-6__button {
+    border: 1px solid #fff;
+    padding: 20px 40px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 1px; }
+
+.block-7 {
+  padding: 100px 0;
+  background-color: #f1f1f1; }
+
+.block-8 {
+  padding: 140px 0;
+  position: relative;
+  background-color: #555; }
+  .block-8__title {
+    margin-bottom: 30px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 400; }
+  .block-8__input-container {
+    display: flex;
+    align-items: flex-start; }
+    .block-8__input-container_input {
+      width: 340px;
+      height: 60px;
+      border: 1px solid #fff;
+      background-color: rgba(241, 241, 241, 0.1);
+      color: #fff;
+      padding: 0 20px;
+      font-size: 18px;
+      margin-right: 4px; }
+      .block-8__input-container_input:focus {
+        outline: none;
+        outline-offset: none; }
+    .block-8__input-container_button {
+      width: 85px;
+      height: 60px;
+      padding: 0;
+      color: #fff;
+      cursor: pointer;
+      border: 1px solid #4c938b;
+      background-color: rgba(76, 147, 139, 0.5); }
+  .block-8 .button-move-up {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(62, 201, 180, 0.7);
+    border: none;
+    bottom: -25px;
+    border-radius: 50%;
+    cursor: pointer; }
+
+.block-9 {
+  background-color: #dfdfdf;
+  padding: 100px 0; }
+  .block-9__articles-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    padding: 0 70px;
+    width: 100%; }
+    .block-9__articles-container_article {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 0;
+      background-color: #fff; }
+      .block-9__articles-container_article_brake-line {
+        width: 35px;
+        height: 5px;
+        background-color: #3ec9b4;
+        margin: 25px 0; }
+      .block-9__articles-container_article .block-9__articles-container_title {
+        color: #3ec9b4; }
+      .block-9__articles-container_article .block-9__articles-container_text {
+        color: grey;
+        font-size: 14px; }
+
+.footer {
+  max-width: 1264px;
+  margin: 0 auto;
+  padding: 40px 80px;
+  background-color: #242831;
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .footer__line-one {
+    padding: 10px; }
+  .footer__line-two {
+    padding: 10px; }
+
+/*# sourceMappingURL=style.css.map */
