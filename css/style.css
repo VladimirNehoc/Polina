@@ -53,7 +53,9 @@ body {
       line-height: 25px; }
 
 .header {
-  background-color: #dfdfdf;
+  background-image: url("../images/ocean.jpg");
+  background-repeat: no-repeat;
+  background-size: 1800px;
   height: 790px; }
   .header .header__title {
     display: flex;
@@ -91,7 +93,13 @@ body {
 
 .block-2 {
   padding: 100px 0;
-  background-color: #dfdfdf; }
+  background-color: #e9e9e9; }
+  .block-2 .articles-container__article_circle {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .block-2 .articles-container__article_circle img {
+      width: 60px; }
 
 .block-3 {
   display: flex;
@@ -102,7 +110,10 @@ body {
     margin-bottom: 15px; }
   .block-3__image {
     width: 50%;
-    background-color: #555; }
+    background-image: url("../images/iphone.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
   .block-3__content {
     padding: 120px 30px;
     width: 50%;
@@ -117,7 +128,10 @@ body {
       line-height: 24px; }
 
 .block-4 {
-  background-color: #333;
+  background-image: url("../images/wood.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
   color: #fff;
   letter-spacing: 5px;
   padding: 70px 0; }
@@ -138,7 +152,9 @@ body {
   padding: 90px 0;
   background-color: #f1f1f1; }
   .block-5 .articles-container__article_image {
-    background-color: #555;
+    background-image: url("../images/raccoon.jpg");
+    background-size: cover;
+    background-position: center;
     height: 220px;
     width: 100%; }
 
@@ -156,11 +172,20 @@ body {
 .block-7 {
   padding: 100px 0;
   background-color: #f1f1f1; }
+  .block-7 .articles-container__article_circle {
+    background-size: cover;
+    background-image: url("../images/men.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #cfcfcf; }
 
 .block-8 {
   padding: 140px 0;
   position: relative;
-  background-color: #555; }
+  background-image: url("../images/keyboard.jpg");
+  background-repeat: no-repeat;
+  background-size: 1300px auto;
+  background-position: center; }
   .block-8__title {
     margin-bottom: 30px;
     color: #fff;
@@ -187,8 +212,8 @@ body {
       padding: 0;
       color: #fff;
       cursor: pointer;
-      border: 1px solid #4c938b;
-      background-color: rgba(76, 147, 139, 0.5); }
+      border: 1px solid #52c2b3;
+      background-color: rgba(76, 147, 139, 0.8); }
   .block-8 .button-move-up {
     position: absolute;
     width: 50px;
